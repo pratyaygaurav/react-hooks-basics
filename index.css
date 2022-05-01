@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(232, 230, 230);
+}
+
+.content{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+button{
+  padding: 10px;
+  font-size: 25px;
+  background-color: rgb(241, 156, 241);
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px white;
+  color: white;
+}
+
+h1{
+  color: black;
+  padding: 3px;
+}
